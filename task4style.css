@@ -1,0 +1,125 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.container
+{
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border:2px solid gray;
+    border-radius: 10px;
+    text-align: center;
+}
+.form-group
+{
+    margin: 20px;
+}
+#name
+{
+    margin-left: 20px;
+}
+#age
+{
+    margin-left: 31px;
+}
+#weight
+{
+    margin-left: 13px;
+}
+input[type=text]
+{
+    padding: 8px;
+    width: 50%;
+}
+input[type=submit]
+{
+    padding: 10px;
+    width: 20%;
+    background: white;
+    border: 1px solid gray;
+}
+#result
+{
+    margin: auto;
+    width: 50%;
+    color: red;
+    font-weight: bold;
+}
+ 
+/*-----------------------Responsive-----------------*/
+@media only screen and (max-width:768px)
+{
+    .container
+    {
+        width: 80%;
+    }
+    input[type=text]
+    {
+        width: 73%;
+    }
+    input[type=submit]
+    {
+        width: 38%;
+    }
+    #result
+    {
+        width: 80%;
+    }
+}
+@media only screen and (max-width:425px)
+{
+    .container
+    {
+        width: 73%;
+    }
+    label
+    {
+        margin-left: -24px;
+        float: left;
+        display: block;
+    }
+    input
+    {
+        width: 111% !important;
+        margin-left: -24px !important;
+    }
+    input[type=submit]
+    {
+        margin-left: 5px !important;
+        width: 97% !important; 
+    }
+}
+@media only screen and (max-width:375px)
+{
+    .container
+    {
+        width: 73%; 
+    }
+    label
+    {
+        margin-left: -24px;
+        float: left;
+        display: block;
+    }
+    input
+    {
+        width: 112% !important;
+        margin-left: -24px !important;
+    }
+    input[type=submit]
+    {
+        margin-left: 5px !important;
+        width: 97% !important; 
+    }
+}
+@media only screen and (max-width: 320px)
+{
+    label
+    {
+        margin-left: -26px;
+        float: left;
+        display: block;
+    }
+}
